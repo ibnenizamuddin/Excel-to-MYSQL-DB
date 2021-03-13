@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from os.path import join, dirname, realpath
 import os
 # Solution:
-path = "D:/ecw_install/EXCEL Migration To DB/migration/data/"
+path = "D:/folder/EXCEL Migration To DB/migration/data/"
 listoffile = os.listdir(path)
 
 for file in listoffile:
